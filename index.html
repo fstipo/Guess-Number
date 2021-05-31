@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess Number</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="shortcut icon" href="#">
 
 <body>
     <header>
         <h1>Guess my Number!</h1>
-        <p class="between">Between 1 and 100</p>
+        <p class="between">(Between 1 and 100)</p>
         <button class="btn again">Again!</button>
         <div class="number">?</div>
     </header>
@@ -20,14 +20,16 @@
         <section class="left">
             <input type="number" name="" class="guess">
             <button class="btn check">Check!</button>
-            <section class="right">
-                <p class="message">Start guessing...</p>
-                <p class="label-score">💯 Score:<span>20</span> </p>
-                <p class="high-score">🥇 HighScore:<span></span> </p>
-            </section>
-
         </section>
+        <section class="right">
+            <p class="message">Start guessing...</p>
+            <p class="label-score">💯 Score:<span class="score">20</span> </p>
+            <p class="high-score">🥇 HighScore:<span></span> </p>
+        </section>
+
+
     </main>
+    <script src="app.js"></script>
 </body>
 
 </html>
